@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 50%, rgba(148,187,233,1) 100%);
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gray;
+}
+
+header h2 {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    letter-spacing: 1px;
+    color: olive;
+}
+
+nav {
+    display: flex;
+    gap: 0.5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    border: 1px solid white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color:gray;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background: rgb(227, 219, 220);
+}
+
+/* Main */
+main {
+    display: flex;
+    margin: 20px;
+    padding: 1%;
+}
+
+section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+section h3{
+    color: peru;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    float: left;
+    padding-right: 5%;
+}
+
+section p{
+    display: inline;
+    justify-content: center;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: blue;
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+aside ul a:hover{
+    color: red;
+}
+
+aside h4 {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: palevioletred;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 50%, rgba(148,187,233,1) 100%);
+    color: white;
+    position: relative;
+    margin-top: 4%;
+    width: 100%;
+}
